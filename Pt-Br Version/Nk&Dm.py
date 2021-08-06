@@ -1,5 +1,5 @@
 # -- coding: utf-8 --
-# By: snu, and thanks to Buraca for the translation
+# By: snu, e obrigado Buraca pela tradução para a versão em inglês
 
 import discord
 from discord.ext import commands
@@ -165,6 +165,7 @@ async def cls(ctx):
 
 @client.command()
 async def help(ctx):
+	await raid.delete_message(ctx.message.id, ctx.channel.id)
 	embed = discord.Embed(
 		title="Nk&Dm",
 		description="**Comandos:**",

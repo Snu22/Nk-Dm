@@ -165,6 +165,7 @@ async def cls(ctx):
 
 @client.command()
 async def help(ctx):
+	await raid.delete_message(ctx.message.id, ctx.channel.id)
 	embed = discord.Embed(
 		title="Nk&Dm",
 		description="**Commands:**",

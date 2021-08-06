@@ -67,7 +67,7 @@ class Raid(object):
 			exit(1)
 
 
-token = ""  # token aqui
+token = ""  # Token Here
 API = 'https://discord.com/api/v9'
 DEBUG = False
 PREFIX = "nk!"
@@ -92,6 +92,7 @@ raid = Raid(token, HEADERS)
 async def on_ready():
 	setTitleWindow(f"Nk&Dm | online in the account -> {client.user}")
 	print(f"{Fore.GREEN}online in the account -> {client.user}{Style.RESET_ALL}")
+	print(f"My prefix is -> {PREFIX}, use help command to see all commands")
 
 
 @client.listen()

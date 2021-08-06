@@ -1,11 +1,3 @@
-python -m pip install discord
+python -m pip -r requirements.txt
 cls
-py -m pip install discord
-cls
-python -m pip install requests
-cls
-py -m pip install requests
-cls
-python -m pip install colorama
-cls
-py -m pip install colorama
+py -m pip install -r requirements.txt

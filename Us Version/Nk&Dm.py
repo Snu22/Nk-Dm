@@ -69,7 +69,7 @@ class Raid(object):
 
 token = ""  # token aqui
 API = 'https://discord.com/api/v9'
-DEBUG = True
+DEBUG = False
 PREFIX = "nk!"
 URL = "https://discordapp.com/api/v9/users/@me/guilds"
 HEADERS = {"Authorization": token}

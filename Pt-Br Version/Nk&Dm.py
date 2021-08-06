@@ -92,8 +92,9 @@ raid = Raid(token, HEADERS)
 async def on_ready():
 	setTitleWindow(f"Nk&Dm | Online na conta -> {client.user}")
 	print(f"{Fore.GREEN}Online na conta -> {client.user}{Style.RESET_ALL}")
+	print(f"Meu prefixo é {PREFIX}, use o comando help para ver todos os comandos")
 
-
+	
 @client.listen()
 async def on_command(ctx):
 	if DEBUG == True:
